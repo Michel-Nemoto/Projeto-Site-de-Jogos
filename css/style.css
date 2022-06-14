@@ -1,0 +1,277 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(../imagens/fundo1.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -50px;
+}
+.menu {
+    background-image: url(../imagens/logo2-2.png);
+    background-repeat: no-repeat;
+    background-position: 100px auto;
+    
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.308);
+
+}
+.menu .logo img{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.menu .nav ul {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 150px;
+    
+}
+.menu .nav ul .nav1 {
+    width: 110px;
+    background-image: linear-gradient(180deg, rgb(255, 201, 100), orange, rgb(255, 201, 100));
+    border: 2px solid black;
+    margin: 0 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+}
+.menu .nav ul .nav1:hover {
+    transform: translateY(-4px);
+    transition: all .2s;
+}
+
+.menu .nav ul .nav2 {
+    width: 110px;
+    background-image: linear-gradient(180deg, rgb(161, 245, 161), rgb(0, 211, 0), rgb(161, 245, 161));
+    border: 2px solid black;
+    margin: 0 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+}
+.menu .nav ul .nav2:hover {
+    transform: translateY(-4px);
+    transition: all .2s;
+}
+
+.menu .nav ul .nav3 {
+    width: 110px; 
+    background-image: linear-gradient(180deg, rgb(180, 100, 255), rgb(132, 0, 255), rgb(180, 100, 255));
+    border: 2px solid black;
+    margin: 0 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+}
+.menu .nav ul .nav3:hover {
+    transform: translateY(-4px);
+    transition: all .2s;
+}
+
+.menu .nav ul .nav4 {
+    width: 110px;
+    background-image: linear-gradient(180deg, rgb(255, 201, 100), orange, rgb(255, 201, 100));
+    border: 2px solid black;
+    margin: 0 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+}
+.menu .nav ul .nav4:hover {
+    transform: translateY(-4px);
+    transition: all .2s;
+}
+
+.menu .nav ul .nav5 {
+    width: 110px;
+    background-image: linear-gradient(180deg, rgb(161, 245, 161), rgb(0, 211, 0), rgb(161, 245, 161));
+    border: 2px solid black;
+    margin: 0 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+}
+.menu .nav ul .nav5:hover {
+    transform: translateY(-4px);
+    transition: all .2s;
+}
+
+.menu .nav ul .nav6 {
+    width: 110px; 
+    background-image: linear-gradient(180deg, rgb(180, 100, 255), rgb(132, 0, 255), rgb(180, 100, 255) );
+    border: 2px solid black;
+    margin: 0 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+}
+.menu .nav ul .nav6:hover {
+    transform: translateY(-4px);
+    transition: all .2s;
+}
+
+.menu .nav ul .icons ion-icon {
+    color: white;
+    font-size: 1.3em;
+}
+.menu .nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 2px 6px;
+}
+
+.menu .nav ul .input-box {
+    background-image: linear-gradient(180deg, gray, rgb(102, 102, 102), gray);
+    padding: 3px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .nav ul .input-box .box {
+    border-radius: 8px;
+    padding: 4px 6px;
+    border:none ;
+    outline:none ;
+}
+.menu .nav ul .input-box ion-icon {
+    margin-left: 3px;
+    font-size: 1.5em;
+}
+
+.form {
+    border-radius: 8px;
+    width: 270px;
+    height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.315);
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.form .top-form span {
+    color: white;
+    font-size: 1.6em;
+}
+
+.form .top-form .caixa-input input {
+    margin: 10px 0;
+    padding: 5px 7px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.397);
+    outline: none;
+    border-radius: 4px;
+    color: white;
+}
+.form .top-form button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 22px;
+    color: white;
+    background-color: rgb(131, 19, 196);
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.397);
+    font-size: 1em;
+    border-radius: 3px;
+}
+.form .top-form button:hover {
+    background-color: rgb(103, 16, 153);
+}
+.form .checkbox {
+    margin-top: 3px;
+    padding: 6px;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+.form .checkbox .help {
+    text-decoration: none;
+    color: #888;
+}
+
+.form .down-form {
+    margin-top: 10px;
+}
+.form .down-form .icons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.form .down-form .icons .icon1 {
+    font-size: 1.5em;
+    background-color: #CB4940;
+    color: white;
+    padding: 1px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.397);
+}
+.form .down-form .icons .icon2 {
+    font-size: 1.5em;
+    background-color: #0C86EE;
+    color: white;
+    padding: 1px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.397);
+}
+.form .down-form .icons .icon3 {
+    font-size: 1.5em;
+    background-image: linear-gradient(225deg, #7C36AE 10%, #9A4DC5, #ED0824, #F96600, #F7CF00 90%);
+    color: white;
+    padding: 1px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.397);
+}
+.form .down-form .icons ion-icon:hover {
+    transform: translateY(-4px);
+    transition: all .2s;
+}
+.form .down-form .asking {
+    color: #888;
+}
+.form .down-form .asking a {
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+}
+.form .down-form .asking a:hover {
+    color: rgb(201, 201, 201);
+}
