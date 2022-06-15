@@ -15,7 +15,6 @@ body {
     background-image: url(../imagens/logo2-2.png);
     background-repeat: no-repeat;
     background-position: 100px auto;
-    
     height: 200px;
     position: relative;
     display: flex;
@@ -31,13 +30,11 @@ body {
 }
 
 .menu .nav ul {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     margin-top: 150px;
-    
 }
 .menu .nav ul .nav1 {
     width: 110px;
